@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloChat">
         <activity
+            android:name=".chatActivity"
+            android:exported="true" />
+        <activity
             android:name=".setProfile"
             android:exported="true" />
         <activity
