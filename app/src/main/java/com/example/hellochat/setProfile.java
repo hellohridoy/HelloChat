@@ -170,7 +170,7 @@ public class setProfile extends AppCompatActivity {
         bitmap.compress(Bitmap.CompressFormat.JPEG,25,byteArrayOutputStream);
         byte[] data=byteArrayOutputStream.toByteArray();
 
-        ///putting image to storage
+        ///putting image to storage 
 
         UploadTask uploadTask=imageref.putBytes(data);
 
